@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Kalyan M Portfolio</title>
+    <link rel="icon" href="img/rblogoportfolio.png">
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background-image: url('img/BG.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+    
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Pavan Kalyan M</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm a Python Developer with strong backend skills using Django and Flask. I build scalable apps, automate workflows, and integrate REST APIs. I'm also experienced in HTML, CSS, and JavaScript for responsive frontends, solving real-world problems with clean code.</p>
+
+            <div class="socialmedia">
+                <a href="https://wa.me/919025446983         " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/mr_pheonix__006/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pavan-kalyan-m-gowda-36a60a257"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <a href="Pavan_Kalyan_M_Resume org.pdf" download class="btn btn-primary">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/Pavan M.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img2.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am a creative Frontend Developer & Web Designer skilled in HTML, CSS, and JavaScript. I also use Python for backend development and data analysis, and love solving real-world problems with full-stack solutions.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Skilled in HTML, CSS, JavaScript, and responsive design. I build robust, dynamic web applications optimized for performance and user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Development</h3>
+                <p>Experienced with Django, Flask, and Pandas for web apps, automation, and analysis. Focused on delivering scalable and efficient backend systems.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>I develop intuitive Android apps using Python and API integration with a focus on user-friendly design and clean architecture.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+<div class="portfolio-box">
+    <img src="img/chatlogo.jpg" alt="ChatMate App Screenshot">
+    <div class="portfolio-layers">
+        <h4>ChatMate App</h4>
+        <p>Real-time chat app using Django & Channels. Live demo coming soon!</p>
+        <a href="#" onclick="alert('This project is not deployed yet!')" style="cursor: pointer;">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+</div>            <div class="portfolio-box"><img src="img/2.jpg" alt=""><div class="portfolio-layers"><h4>Web Design</h4><p>Click to visit</p><i class="fa-solid fa-arrow-up-right-from-square"></i></div></div>
+            <div class="portfolio-box"><img src="img/3.jpg" alt=""><div class="portfolio-layers"><h4>Web Design</h4><p>Click to visit</p><i class="fa-solid fa-arrow-up-right-from-square"></i></div></div>
+            <div class="portfolio-box"><img src="img/4.jpg" alt=""><div class="portfolio-layers"><h4>Web Design</h4><p>Click to visit</p><i class="fa-solid fa-arrow-up-right-from-square"></i></div></div>
+            <div class="portfolio-box"><img src="img/5.jpg" alt=""><div class="portfolio-layers"><h4>Web Design</h4><p>Click to visit</p><i class="fa-solid fa-arrow-up-right-from-square"></i></div></div>
+            <div class="portfolio-box"><img src="img/6.jpg" alt=""><div class="portfolio-layers"><h4>Web Design</h4><p>Click to visit</p><i class="fa-solid fa-arrow-up-right-from-square"></i></div></div>
+        </div>
+    </section>
+
+ <!-- <form action="https://formsubmit.co/pavankalyanm001@gmail.com" method="POST"> 
+   
+    <input type="hidden" name="_subject" value="New message from portfolio site!">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <div class="input-boxes">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+    </div>
+    <div class="input-boxes">
+        <input type="number" name="phone" placeholder="Mobile Number">
+        <input type="text" name="subject" placeholder="Email Subject">
+    </div>
+    <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+ </form>Contact Section  -->
+    <!--<section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-boxes">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-boxes">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section> --> 
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <p style="text-align: center; font-size: 1.8rem;">
+        You can reach out to me using this form:
+    </p>
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3_-Zp691tW6XqPZGhUoZn66QI39Un3JElO9RHxbnGL20gbA/viewform?usp=preview" target="_blank" class="btn">
+            Open Contact Form
+        </a>
+    </div>
+</section> 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 Pavan Kalyan M | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
